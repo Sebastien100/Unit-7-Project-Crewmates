@@ -1,0 +1,22 @@
+.gallery{
+    display: flex;
+   flex-direction: row;
+}
+.gallery-content{
+    min-width: 80vw;
+  
+    
+
+}
+.item{
+    background-color: gray;
+    color: white;
+    padding: 20px;
+    width: 120px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 2px;
+}
+.item img{
+    width: 100px;
+}

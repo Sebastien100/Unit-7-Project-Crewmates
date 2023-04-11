@@ -1,0 +1,18 @@
+.edit-member{
+    display: flex;
+    flex-direction: row;
+  
+}
+.member-details{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+
+}
+.member-details img{
+    width: 150px;
+}
+.details{
+    background-color: darkgrey;
+    margin-bottom: 10px;
+}

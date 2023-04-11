@@ -1,0 +1,26 @@
+.sidebar{
+    background-color: black;
+    height: 100vh;
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+    width: 15vw;
+    align-content: center;
+    position: sticky;
+    
+  
+
+}
+.sidebar li{
+    list-style-type: none; 
+    margin: 10px 0px;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+     
+
+    
+}
+

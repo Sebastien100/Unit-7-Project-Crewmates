@@ -1,0 +1,7 @@
+.member-detail{
+    display: flex;
+    flex-direction: row;
+}
+.member-detail img{
+    width: 150px;
+}
