@@ -1,10 +1,10 @@
-# Web Development Project 7 - *Vindicator Creator*
+# Web Development Project 7 - *Name of App Here*
 
-Submitted by: **Vindicator Creator**
+Submitted by: Sebastien Samedy
 
-This web app: **insert description**
+This web app: Is for users who play COD.
 
-Time spent: **10** hours spent in total
+Time spent: 8 hours spent in total
 
 ## Required Features
 
@@ -13,8 +13,9 @@ The following **required** functionality is completed:
 - [x] **A create form allows users to add new cremates**
 - [x] **Users can name the crewmate and set the crewmate's attributes by clicking on one of several values**
 - [x] **The site displays a summary page of all the user's added crewmates**
-- [x] **A previously created crewmate can be updated and deleted from the crewmate list**
-- [x] **Each crewmate has a direct, unique link to an info page about them**
+- [x] **A previously created crewmate can be updated from the crewmate list**
+- [x] **A previously created crewmate can be deleted from the crewmate list**
+- [ ] **Each crewmate has a direct, unique link to an info page about them**
 
 The following **optional** features are implemented:
 
@@ -22,9 +23,15 @@ The following **optional** features are implemented:
 - [ ] The site displays summary statistics about a user's crew on their crew page 
 - [ ] The site displays a custom "success" metric about a user's crew which changes the look of the crewmate list
 
-![ezgif com-video-to-gif (9)](https://user-images.githubusercontent.com/92543813/231053992-f42235d8-4c1c-44ca-a6e8-e2d8298adf2a.gif)
+The following **additional** features are implemented:
 
+* [ ] List anything else that you added to improve the site's functionality!
 
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
@@ -33,11 +40,13 @@ GIF created with ...
 [ScreenToGif](https://www.screentogif.com/) for Windows
 [peek](https://github.com/phw/peek) for Linux. -->
 
+## Notes
 
+Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [2023] [Charidi Stevens]
+    Copyright [yyyy] [name of copyright owner]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
