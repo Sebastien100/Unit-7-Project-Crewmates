@@ -5,13 +5,13 @@ function SideBar() {
   return (
     <div className="sidebar">
       <li>
-        <Link to={`/`}>Home</Link>
+        <Link className="sidebar-link" to={`/`}>Home</Link>
       </li>
       <li>
-        <Link to={`/create`}>Create a Crewmate</Link>
+        <Link className="sidebar-link" to={`/create`}>Create a Soldier</Link>
       </li>
       <li>
-       <Link to={`/gallery`}>Crewmate Gallery</Link>
+       <Link className="sidebar-link" to={`/gallery`}>Soldier Gallery</Link>
       </li>
     </div>
   );

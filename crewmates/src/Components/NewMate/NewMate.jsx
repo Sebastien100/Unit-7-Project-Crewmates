@@ -1,10 +1,10 @@
 import "./NewMate.css";
 import { useState } from "react";
 import SideBar from "../SideBar/SideBar";
-import logo from "../assets/vindicators-removebg-preview.png";
-import character1 from "../assets/pnghut_fan-art-character-cartoon-face-rick-and-morty.png";
-import character2 from "../assets/pnghut_sticker-television-decal-clip-art-yellow-rick-and-morty-character.png";
-import character3 from "../assets/ne84likd8nd402umpa38avlg4v-b9e405a771462a57ee8596c08b0c3a0d.png";
+import logo from "../assets/COD2.png";
+import character1 from "../assets/character1.png";
+import character2 from "../assets/character2.png";
+import character3 from "../assets/character3.png";
 
 import { supabase } from "../client";
 
@@ -50,10 +50,10 @@ console.log(color)
             </div>
             <div className="section">
               <label>
-                Power Level(1-10):
+                Rank (1-55):
                 <input
                   type="number"
-                  name="power"
+                  name="rank"
                   onChange={(e) => setSpeed(e.target.value)}
                 />
               </label>

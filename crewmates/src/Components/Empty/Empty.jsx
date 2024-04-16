@@ -3,7 +3,7 @@ import "./Empty.css";
 function Empty() {
   return (
     <div className="empty">
-      Empty
+      No Soldiers
     </div>
   );
 }

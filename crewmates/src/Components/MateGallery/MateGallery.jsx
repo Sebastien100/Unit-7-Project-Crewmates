@@ -3,9 +3,9 @@ import SideBar from "../SideBar/SideBar";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Empty from "../Empty/Empty"
-import character1 from "../assets/pnghut_fan-art-character-cartoon-face-rick-and-morty.png";
-import character2 from "../assets/pnghut_sticker-television-decal-clip-art-yellow-rick-and-morty-character.png";
-import character3 from "../assets/ne84likd8nd402umpa38avlg4v-b9e405a771462a57ee8596c08b0c3a0d.png";
+import character1 from "../assets/character1.png";
+import character2 from "../assets/character2.png";
+import character3 from "../assets/character3.png";
 
 
 import { supabase } from "../client";
@@ -34,7 +34,7 @@ console.log(data)
                 {item.color == "character3" ?<img src={character3} />:null}
                 
                 <p>Name: {item.name}</p>
-                <p>Power Level: {item.speed}</p>
+                <p>Rank: {item.speed}</p>
                 </Link>
                 <Link to={`/update/${index}`}><button>Edit Member</button></Link>
             </div>
